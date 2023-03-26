@@ -1,7 +1,7 @@
 # Stopwatch
 A simple Stopwatch developed using Vanilla JS and styled using CSS, which ***starts, stops and resets*** the timer. 
 
-The link to the final hosted webpage is : 
+The link to the final hosted webpage is :  https://mrpkm.github.io/Stop-Watch/
 
 
 
