@@ -7,14 +7,13 @@
 
 h1 {
   text-align: center;
-  letter-spacing: 10px;
-  /* margin-top: 15px; */
-  /* padding: x5%; */
+  letter-spacing: 2px;
   color: white;
   font-size: 60px;
   font-weight: 250;
-  font-family: unset;
+  font-family: "Lobster", cursive;
   padding-left: 5px;
+  text-transform: capitalize;
 }
 body {
   background-image: url("page_background.jpg");
@@ -31,11 +30,9 @@ body {
 #watchContainer {
   width: 30rem;
   height: 20rem;
-  /* background-image: url(./background.jpg); */
   background-image: linear-gradient(rgb(34, 132, 230), 10%, rgb(3, 14, 19));
   background-repeat: no-repeat;
   background-size: cover;
-  /* border: 2px solid red; */
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -43,6 +40,7 @@ body {
   justify-content: center;
   row-gap: 3rem;
   box-shadow: 0px 0px 10px 5px gray;
+  padding: 10px;
 }
 
 #displayTime {
@@ -56,7 +54,6 @@ body {
   border-radius: 10px;
   font-size: large;
   border: none;
-  /* gap: 3rem; */
   margin: 0.2rem 0.8rem;
   cursor: pointer;
 }
@@ -83,4 +80,11 @@ body {
 #resetBtn:hover {
   background-color: gray;
   color: white;
+}
+/* /mdeia */
+@media (max-width: 500px) {
+  #watchContainer {
+    width: 23rem;
+    height: 16rem;
+  }
 }
